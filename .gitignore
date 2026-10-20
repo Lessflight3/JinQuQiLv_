@@ -1,0 +1,32 @@
+# Qt / qmake
+build/
+*.pro.user
+*.pro.*.user
+*.pro.user.*
+
+# Qt generated files
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+qrc_*.h
+
+# MinGW / MSVC 编译产物
+*.o
+*.obj
+*.exe
+*.dll
+*.a
+*.lib
+*.so
+*.dylib
+
+# IDE 配置
+.vs/
+.qtcreator/
+.vscode/
+.idea/
+*.swp
+
+# 运行时生成
+layout_selfcheck.txt
